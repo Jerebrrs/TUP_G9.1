@@ -2,11 +2,11 @@
 {
     class Program
     {
-        static int[] num = new int[100];
+
         static void Main(string[] args)
         {
             Console.Write("");
-
+            int[] num = new int[100];
             Random rnd = new Random();
 
             for (int i = 0; i < num.Length; i++)
